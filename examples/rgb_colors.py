@@ -46,5 +46,5 @@ lights = b.get_light_objects()
 for light in lights:
     # y might be used as brightness value, however, dark colors will turn the lights off
     #brightness = int(xy[1]*255)
-    brightness = 255 
+    light.brightness = 255 
     light.xy = xy 
